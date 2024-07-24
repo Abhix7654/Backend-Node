@@ -1,0 +1,21 @@
+npm init
+npm -inti -y
+both commands generate package.json file
+
+ways to download npm package
+npm install packagename(download package in computer)
+npm install package --save (download package in working folder)
+npm install packagename -g(download globally)
+npm install packagename -D(download package in working folder devdependencies)
+
+--shortcut to download package--
+npm i packagename --save
+npm i --save packagename
+
+--nodemon--
+npm i -g nodemon
+nodemon runs js file contniues
+live server of node file
+
+commands to remove package
+npm remove packagename
