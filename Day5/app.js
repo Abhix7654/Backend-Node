@@ -2,9 +2,9 @@ const express = require("express");
 const app = express();
 const PORT = 8080;
 
-const logger = require("morgan");
+// const logger = require("morgan");
 
-app.use(logger("tiny"));
+// app.use(logger("tiny"));
 
 app.get("/", (req, res) => {
     // res.send("Hello From Homepage");
