@@ -6,7 +6,7 @@ const app = express();
 const logger = require("morgan");
 const path = require("path");
 
-const indexRouter = require("./routes/indexRoutes");
+const userRouter = require("./routes/userRoutes");
 
 require("./models/db");
 
